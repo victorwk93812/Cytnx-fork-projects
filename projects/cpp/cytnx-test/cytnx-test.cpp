@@ -4,9 +4,11 @@ using namespace std;
 namespace cy=cytnx;
 int main(){
     cout << "Hello World!" << endl; 
-    auto A = cytnx::Tensor({2, 3});
+    auto A = cy::Tensor({2, 3});
     auto B = A;
 
-    cout << cytnx::is(B, A) << endl;
+    cout << cy::is(B, A) << endl;
+    auto C = cy::ones(4); 
+    cout << C << endl; 
     return 0; 
 }
