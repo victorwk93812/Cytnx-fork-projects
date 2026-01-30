@@ -28,7 +28,7 @@ docker build\
 
 - `cytest-<type>-fs.Dockerfile`  
 
-Specify the path/URL to a Cytnx repo so that the image build stage (re-)builds & (re-)compiles the project for you (on each repo modification, typicall new git commit).  
+Specify the path/URL to a Cytnx repo so that the image build stage (re-)builds & (re-)compiles the project for you (on each repo modification, typically a new git commit).  
 Defaults to [latest Github release of upstream Cytnx](https://github.com/Cytnx-dev/Cytnx/releases/latest).  
 If you wish to stick to a Cytnx library version and avoid image rebuilds as much as possible, keep this path to your cloned local version.   
 
