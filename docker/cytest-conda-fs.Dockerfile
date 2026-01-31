@@ -41,26 +41,26 @@ RUN bash setup_conda.sh \
     ${make_ver} \
     ${cmake_ver}
 
-RUN bash build_compile_cytnx.sh \
-    # ${path to cytnx dir, git clone or path to bind mount}
-	${CMAKE_INSTALL_PREFIX} \
-	${BUILD_PYTHON} \
-	${USE_ICPC} \
-	${USE_MKL} \
-	${USE_OMP} \
-	${USE_CUDA} \
-	${USE_HPTT} \
-	${HPTT_ENABLE_FINE_TUNE} \
-	${HPTT_ENABLE_AVX} \
-	${HPTT_ENABLE_ARM} \
-	${HPTT_ENABLE_IBM} \
-	${USE_CUTENSOR} \
-	${USE_CUQUANTUM} \
-	${RUN_TESTS} \
-	${RUN_BENCHMARKS} \
-	${USE_DEBUG} \
-	${BUILD_DOC} \
-    ${DEV_MODE} \
+# RUN bash build_compile_cytnx.sh \
+#     # ${path to cytnx dir, git clone or path to bind mount}
+# 	${CMAKE_INSTALL_PREFIX} \
+# 	${BUILD_PYTHON} \
+# 	${USE_ICPC} \
+# 	${USE_MKL} \
+# 	${USE_OMP} \
+# 	${USE_CUDA} \
+# 	${USE_HPTT} \
+# 	${HPTT_ENABLE_FINE_TUNE} \
+# 	${HPTT_ENABLE_AVX} \
+# 	${HPTT_ENABLE_ARM} \
+# 	${HPTT_ENABLE_IBM} \
+# 	${USE_CUTENSOR} \
+# 	${USE_CUQUANTUM} \
+# 	${RUN_TESTS} \
+# 	${RUN_BENCHMARKS} \
+# 	${USE_DEBUG} \
+# 	${BUILD_DOC} \
+#     ${DEV_MODE}
 
 # --- 3. Final Environment Configuration
 # Set the PATH to include the Conda environment binaries

@@ -4,9 +4,9 @@
 |:-:|:-:|:-:|
 |`cytest-conda.Dockerfile`|Using conda packaged Cytnx library|3.9 GB (miniforge install + env 3.5GB)|
 |`cytest-conda-fs.Dockerfile`|Using Cytnx built from source in a conda env|(test in progress)|
-|`cytest-native-fs.Dockerfile`|Using Cytnx built from source in native OS env||(test in progress)|
-|`cydev-conda.Dockerfile`|Developing the Cytnx package in a conda env||(test in progress)|
-|`cydev-native.Dockerfile`|Developing Cytnx package in native OS env||(test in progress)|
+|`cytest-native-fs.Dockerfile`|Using Cytnx built from source in native OS env|(test in progress)|
+|`cydev-conda.Dockerfile`|Developing the Cytnx package in a conda env|(test in progress)|
+|`cydev-native.Dockerfile`|Developing Cytnx package in native OS env|(test in progress)|
 
 ## Prerequisites
 
